@@ -10,4 +10,7 @@ Java Development Kit is something which converts the code which is written in ja
 
 ## JVM
 
-JVM is Java Virtual Machine so jvm is something which executes the byte code created from jdk 
+JVM is Java Virtual Machine so jvm is something which executes the byte code created from jdk now jvm is part of jre along with the other files 
+
+## JRE
+ JRE is Java Runtime Environment it is resp
