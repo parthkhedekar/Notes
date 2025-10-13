@@ -90,11 +90,6 @@ It translates bytecode into **machine code** for the host system.
 
 ---
 
-## 🔁 **Relationship Diagram**
-
- 
----
-
 ## ✅ **In Summary**
 
 `JDK = JRE + Development Tools JRE = JVM + Libraries JVM = Executes Bytecode (Platform Dependent)  → “Write Once, Run Anywhere” is possible because JVM runs the same bytecode on any OS that has a compatible JVM.`
