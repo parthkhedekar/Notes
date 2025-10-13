@@ -18,4 +18,4 @@ JVM is Java Virtual Machine so jvm is something which executes the byte code cre
 
 So JRE = JVM + Helper classes files etc i.e. JAVA Libraries 
 
-JDK = 
+JDK = JRE + Development Tools
