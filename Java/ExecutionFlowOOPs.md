@@ -5,4 +5,4 @@
 	3. Inheritence 
 	4. Polymorphism
 
-Java is an object oriented lang
+Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive 
