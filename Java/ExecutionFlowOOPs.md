@@ -1,2 +1,3 @@
-# Object Oriented P Principles:
-	1. 
+# Object Oriented Programming Principles:
+	1. Encapsulation
+	2. 
