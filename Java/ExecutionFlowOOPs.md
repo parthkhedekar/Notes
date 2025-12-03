@@ -29,6 +29,8 @@
 			i.  Runtime Polymorphism (Method overriding)
 				a. is decided at the time of runtime by JVM
 				b. the same function is overrided in child classes  and the child 
+				function is called when the object of child class is created 
+				irrespective of the reference created
 			ii. Compiletime Polymorphism
 	2. Concurrency
 	3. Persistence
