@@ -2,7 +2,7 @@
 
 **OOPs has 2 basic principles** :- 
 
-	1. **Class**:
+	1. Class:
 		a. Class is a logical entity 
 		b. consists of data members and methods 
 		c. methods can be static , non-static (Static can be accessed through class
@@ -10,7 +10,7 @@
 		 objects )
 		d. also called as user defined datatype
 		
-	2. **Object**:
+	2. Object:
 		a. a physical entity 
 		b. just an instance of class
 		c. one class can have multiple objects
@@ -55,6 +55,7 @@
 				 and data types of parameters can be changed and method 
 				 overloading works
 	2. Concurrency
+		a. Number of processes threads that can work
 	3. Persistence
 	
 Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive datatypes but for this we have wrapper classes 
