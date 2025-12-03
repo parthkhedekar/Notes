@@ -14,7 +14,7 @@
 		a. Modularity is just keeping everything arranged and in seperate files 
 		b. jmods is good example where java has arranged everything in modules
 	4. Hierarchy
-		a. it justs represents code reusability 
+		a. it justs represents code reusability and establishes relationship between 2 entities  
 		b. it is further subdivided in:
 			i.  Association (Having Has - A Relationship)
 				a. 
