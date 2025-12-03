@@ -20,5 +20,7 @@ OOPs has 2 basic principles :-
 	2. Object:
 		a. a physical entity 
 		b. just an instance of class
-		c. 
+		c. one class can have multiple objects
+		d. in java to create a object we need new operator
+	 
 
