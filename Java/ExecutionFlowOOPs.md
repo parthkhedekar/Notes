@@ -28,7 +28,7 @@
 		b. is further divided in 2 types
 			i.  Runtime Polymorphism (Method overriding)
 				a. is decided at the time of runtime by JVM
-				b. the same function is overrided in child classes and 
+				b. the same function is overrided in child classes  and the child 
 			ii. Compiletime Polymorphism
 	2. Concurrency
 	3. Persistence
