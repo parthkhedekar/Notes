@@ -11,6 +11,7 @@
 		c. Jmods or rtJar (Java internally stores its helper classes or libraries in jmod currently priorly in rt.jar)
 	3. Modularity
 		a. Modularity is just keeping everything arranged and in seperate files 
+		b. jmods is good example where java has arranged everything in modules
 	4. Hierarchy
 #### Minor Pillars :
 	1. Typing / Polymorphism 
