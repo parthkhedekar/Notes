@@ -14,7 +14,8 @@
 		a. Modularity is just keeping everything arranged and in seperate files 
 		b. jmods is good example where java has arranged everything in modules
 	4. Hierarchy
-		a. 
+		a. it justs represents code reusability 
+		b. it is further subdivided in:
 #### Minor Pillars :
 	1. Typing / Polymorphism 
 	2. Concurrency
