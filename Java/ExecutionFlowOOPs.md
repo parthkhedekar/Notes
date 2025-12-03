@@ -11,6 +11,7 @@ OOPs has 2 basic principles :-
 	1. Class:
 		a. Class is a logical entity 
 		b. consists of data members and methods 
-		c. methods can be static , non-static (Static can be accessed through class names while for non static classes ne)
+		c. methods can be static , non-static (Static can be accessed through class names while for non static classes needs to be accessed by creating objects )
+		d. also called 
 	2. Object:
 
