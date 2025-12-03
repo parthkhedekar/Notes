@@ -42,9 +42,9 @@ Java is an Object-Oriented Programming language where almost everything is treat
 ---
 ## **4. Hierarchy** (Relationship + Reusability)
 Hierarchy expresses **relationships** between objects & code reuse.
-### **i. Association** (Has-A Relationship)
-- One class uses another by creating its object.
-- Example:
+	### **i. Association** (Has-A Relationship)
+		- One class uses another by creating its object.
+		- Example:
 -`class Car {     Engine e = new Engine();   // Car HAS-A Engine }`
 
 ### **ii. Inheritance** (Is-A Relationship)
@@ -69,32 +69,17 @@ Polymorphism → **"many forms"** of the same method or reference.
     - Order of parameters
 ---
 ## **2. Concurrency**
-
 - Ability to execute **multiple threads** concurrently.
-    
 - Java provides:
-    
     - `Thread` class
-        
     - `Runnable` interface
-        
     - Executors, thread pools
-        
 - Enables parallelism and better CPU utilization.
-    
-
 ---
-
 ## **3. Persistence**
-
 - Keeping data **stored/saved** beyond program execution.
-    
 - Supported via:
-    
     - **Java I/O**
-        
     - **Serialization**
-        
     - **JDBC**
-        
     - External frameworks (Hibernate, JPA)
