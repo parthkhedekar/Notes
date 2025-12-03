@@ -25,7 +25,10 @@
 #### Minor Pillars :
 	1. Typing / Polymorphism 
 		a. Polymorphism is having code in different forms 
-		b. is further divided in 2 ty
+		b. is further divided in 2 types
+			i.  Runtime Polymorphism
+				a. 
+			ii. Compiletime Polymorphism
 	2. Concurrency
 	3. Persistence
 	
