@@ -63,11 +63,11 @@ Polymorphism → **"many forms"** of the same method or reference.
 		- Actual method called depends on **object**, not reference.
 	 ii. Compile-time Polymorphism (Method Overloading)
 		- Decided at **compile time**.
-	- Works on **name mangling** (compiler-generated method signatures).
-- Achieved by changing:
-    - Number of parameters
-    - Type of parameters
-    - Order of parameters
+		- Works on **name mangling** (compiler-generated method signatures).
+		 Achieved by changing:
+		    - Number of parameters
+		    - Type of parameters
+		    - Order of parameters
 ---
 ## **2. Concurrency**
 - Ability to execute **multiple threads** concurrently.
