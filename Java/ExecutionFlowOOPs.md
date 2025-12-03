@@ -14,54 +14,28 @@ Java is an Object-Oriented Programming language where almost everything is treat
 - Also called **User-Defined Datatype**.
 - Blueprint for creating objects.
 ---
-
 ## **2. Object**
-
 - A **physical entity** in memory.
-    
 - An **instance of a class**.
-    
 - One class → multiple objects.
-    
 - Created using the **`new` operator** (except via reflection, cloning, deserialization).
-    
-
 ---
-
 # **Major OOP Pillars**
-
 ## **1. Abstraction**
-
 - Showing only the **necessary** details and hiding the internal implementation.
-    
 - Examples:
-    
-    - **DAO layer** (exposing only required fields, hiding database structure).
-        
-    - **Abstract Classes** & **Interfaces** → define behavior without implementation.
-        
+    - **DAO layer** (exposing only required fields, hiding database structure).    
+    - **Abstract Classes** & **Interfaces** → define behavior without implementation.    
 - Benefits: Simplicity, reduced complexity, security.
-    
-
 ---
-
 ## **2. Encapsulation**
-
 - **Binding data + methods** that operate on the data into a single unit (class).
-    
 - Fields are made **private**, accessed via **getters & setters**.
-    
 - Examples:
-    
-    - Java modules (**jmod** in Modern JDK) or earlier **rt.jar** (Java library packaging).
-        
+    - Java modules (**jmod** in Modern JDK) or earlier **rt.jar** (Java library packaging).   
     - Creating a class with private fields.
-        
-
 ---
-
 ## **3. Modularity**
-
 - Organizing code into **separate, manageable modules/files**.
     
 - Improves maintainability & readability.
