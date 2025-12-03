@@ -16,6 +16,9 @@
 	4. Hierarchy
 		a. it justs represents code reusability 
 		b. it is further subdivided in:
+			i.  Association (Having Has - A Relationship)
+				a. 
+			ii. Inheritence (Having Is - A Relationship)
 #### Minor Pillars :
 	1. Typing / Polymorphism 
 	2. Concurrency
