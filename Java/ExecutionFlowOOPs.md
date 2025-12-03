@@ -55,7 +55,7 @@ Hierarchy expresses **relationships** between objects & code reuse.
 		- Supports code reuse & method overriding.
 ---
 # Minor OOP Pillars
-## 1. Typing / Polymorphism
+## 1. **Typing / Polymorphism**
 Polymorphism → **"many forms"** of the same method or reference.
 	 i. Runtime Polymorphism (Method Overriding)
 		- Decided at **runtime** by JVM.
@@ -69,7 +69,7 @@ Polymorphism → **"many forms"** of the same method or reference.
 		    - Type of parameters
 		    - Order of parameters
 ---
-## **2. Concurrency**
+## 2. **Concurrency**
 - Ability to execute **multiple threads** concurrently.
 - Java provides:
     - `Thread` class
@@ -77,10 +77,12 @@ Polymorphism → **"many forms"** of the same method or reference.
     - Executors, thread pools
 - Enables parallelism and better CPU utilization.
 ---
-## **3. Persistence**
+## 3. **Persistence**
 - Keeping data **stored/saved** beyond program execution.
 - Supported via:
     - **Java I/O**
     - **Serialization**
     - **JDBC**
     - External frameworks (Hibernate, JPA)
+
+##Execution
