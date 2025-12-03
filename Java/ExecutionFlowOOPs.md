@@ -6,7 +6,9 @@
 	3. Modularity
 	4. Hierarchy
 #### Minor Pillars :
-	1. 
+	1. Typing / Polymorphism 
+	2. Concurrency
+	3. Persistence
 Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive datatypes but for this we have wrapper classes 
 
 OOPs has 2 basic principles :- 
