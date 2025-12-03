@@ -42,16 +42,17 @@ Java is an Object-Oriented Programming language where almost everything is treat
 ---
 ## **4. Hierarchy** (Relationship + Reusability)
 Hierarchy expresses **relationships** between objects & code reuse.
-	### **i. Association** (Has-A Relationship)
+
+	 i. Association (Has-A Relationship)
 		- One class uses another by creating its object.
 		- Example:
--`class Car {     Engine e = new Engine();   // Car HAS-A Engine }`
+			-`class Car {     Engine e = new Engine();   // Car HAS-A Engine }`
 
-### **ii. Inheritance** (Is-A Relationship)
-
-- Child class inherits fields/methods of parent.
-- Parent class object is not created physically inside child, but **child gets access to parent members**.
-- Supports **code reuse** & **method overriding**.
+	ii. Inheritance (Is-A Relationship)
+		- Child class inherits fields/methods of parent.
+		- Parent class object is not created physically inside child, but **child 
+		gets access to parent members**.
+		- Supports **code reuse** & **method overriding**.
 ---
 # **Minor OOP Pillars**
 ## **1. Typing / Polymorphism**
