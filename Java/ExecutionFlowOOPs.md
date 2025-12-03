@@ -8,8 +8,9 @@
 	2. Encapsulation
 		a. Binding data and code together
 		b. class binds data members and member functions
-		c. Jmods or rtJar (Java )
+		c. Jmods or rtJar (Java internally stores its helper classes or libraries in jmod currently priorly in rt.jar)
 	3. Modularity
+		
 	4. Hierarchy
 #### Minor Pillars :
 	1. Typing / Polymorphism 
