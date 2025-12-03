@@ -26,8 +26,9 @@
 	1. Typing / Polymorphism 
 		a. Polymorphism is having code in different forms 
 		b. is further divided in 2 types
-			i.  Runtime Polymorphism
-				a. 
+			i.  Runtime Polymorphism (Method overriding)
+				a. is decided at the time of runtime by JVM
+				b. 
 			ii. Compiletime Polymorphism
 	2. Concurrency
 	3. Persistence
