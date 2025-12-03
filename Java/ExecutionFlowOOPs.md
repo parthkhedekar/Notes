@@ -37,26 +37,15 @@ Java is an Object-Oriented Programming language where almost everything is treat
 ---
 ## **3. Modularity**
 - Organizing code into **separate, manageable modules/files**.
-    
 - Improves maintainability & readability.
-    
 - Java uses **Jigsaw (Java Modules)** → `.jmod` files.
-    
-
 ---
-
 ## **4. Hierarchy** (Relationship + Reusability)
-
 Hierarchy expresses **relationships** between objects & code reuse.
-
 ### **i. Association** (Has-A Relationship)
-
 - One class uses another by creating its object.
-    
 - Example:
-    
-    `class Car {     Engine e = new Engine();   // Car HAS-A Engine }`
-    
+-`class Car {     Engine e = new Engine();   // Car HAS-A Engine }`
 
 ### **ii. Inheritance** (Is-A Relationship)
 
