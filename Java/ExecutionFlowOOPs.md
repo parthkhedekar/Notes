@@ -20,6 +20,8 @@
 				a. Creating object of dependency class inside the dependent class.
 				(Car Has a Engine {})
 			ii. Inheritence (Having Is - A Relationship)
+				a. Object of parent class created automatically inside the child
+				class
 #### Minor Pillars :
 	1. Typing / Polymorphism 
 	2. Concurrency
