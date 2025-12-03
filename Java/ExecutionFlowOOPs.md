@@ -50,46 +50,24 @@ Hierarchy expresses **relationships** between objects & code reuse.
 ### **ii. Inheritance** (Is-A Relationship)
 
 - Child class inherits fields/methods of parent.
-    
 - Parent class object is not created physically inside child, but **child gets access to parent members**.
-    
 - Supports **code reuse** & **method overriding**.
-    
-
 ---
-
 # **Minor OOP Pillars**
-
 ## **1. Typing / Polymorphism**
-
 Polymorphism → **"many forms"** of the same method or reference.
-
 ### **i. Runtime Polymorphism (Method Overriding)**
-
 - Decided at **runtime** by JVM.
-    
 - Same method name & signature in child and parent.
-    
 - Actual method called depends on **object**, not reference.
-    
-
 ### **ii. Compile-time Polymorphism (Method Overloading)**
-
 - Decided at **compile time**.
-    
 - Works on **name mangling** (compiler-generated method signatures).
-    
 - Achieved by changing:
-    
     - Number of parameters
-        
     - Type of parameters
-        
     - Order of parameters
-        
-
 ---
-
 ## **2. Concurrency**
 
 - Ability to execute **multiple threads** concurrently.
