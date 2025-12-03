@@ -40,6 +40,7 @@
 				a. Object of parent class created automatically inside the child
 				class
 #### Minor Pillars :
+
 	1. Typing / Polymorphism 
 		a. Polymorphism is having code in different forms 
 		b. is further divided in 2 types
@@ -55,8 +56,10 @@
 				 and data types of parameters can be changed and method 
 				 overloading works
 	2. Concurrency
-		a. Number of processes threads that can work
+		a. Number of processes threads that can work concurrently
+		b. Java Supports multi threading
 	3. Persistence
+		a. 
 	
 Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive datatypes but for this we have wrapper classes 
 
