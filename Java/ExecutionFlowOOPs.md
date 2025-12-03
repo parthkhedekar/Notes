@@ -4,7 +4,7 @@
 	1. Abstraction
 		a. Getting to know only required information
 		b. DAO layer where we are only exposing required fields not whole table 
-		c. Creating an object is abstraction (we are just using new operator but dont know what is happening internally like which constructor is being called etc)
+		c. Abstract Classes and Interfaces
 	2. Encapsulation
 	3. Modularity
 	4. Hierarchy
