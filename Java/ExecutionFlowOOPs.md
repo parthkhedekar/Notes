@@ -3,7 +3,8 @@
 #### Major pillars :
 	1. Abstraction
 		a. Getting to know only required information
-		b. DAO layer
+		b. DAO layer where we are only exposing required fields not whole table 
+		c. Creating an object is abstraction
 	2. Encapsulation
 	3. Modularity
 	4. Hierarchy
