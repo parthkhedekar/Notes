@@ -9,10 +9,12 @@
 		a. Binding data and code together
 		b. class binds data members and member functions
 		c. Jmods or rtJar (Java internally stores its helper classes or libraries in jmod currently priorly in rt.jar)
+		d. creating a class
 	3. Modularity
 		a. Modularity is just keeping everything arranged and in seperate files 
 		b. jmods is good example where java has arranged everything in modules
 	4. Hierarchy
+		a. 
 #### Minor Pillars :
 	1. Typing / Polymorphism 
 	2. Concurrency
