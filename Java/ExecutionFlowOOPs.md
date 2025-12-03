@@ -17,7 +17,8 @@
 		a. it justs represents code reusability and establishes relationship between 2 entities  
 		b. it is further subdivided in:
 			i.  Association (Having Has - A Relationship)
-				a. 
+				a. Creating object of dependency class inside the dependent class.
+				(Car Has a Engine {})
 			ii. Inheritence (Having Is - A Relationship)
 #### Minor Pillars :
 	1. Typing / Polymorphism 
