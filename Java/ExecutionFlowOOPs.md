@@ -31,8 +31,9 @@
 				b. the same function is overrided in child classes  and the child 
 				function is called when the object of child class is created 
 				irrespective of the reference created
-			ii. Compiletime Polymorphism
-				a
+			ii. Compiletime Polymorphism (Method overloading)
+				a. is decided at the time of compilation
+				b. 
 	2. Concurrency
 	3. Persistence
 	
