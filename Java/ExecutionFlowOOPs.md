@@ -1,70 +1,159 @@
 # Object Oriented Programming Principles:
 
-Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive datatypes but for this we have wrapper classes 
+Java is an Object-Oriented Programming language where almost everything is treated as a **class** or **object**.  
+**Exception:** Primitive data types (int, float, boolean…). Java provides **Wrapper Classes** (Integer, Float, Boolean…) to treat primitives as objects when needed.
 
-**OOPs has 2 basic principles** :- 
+---
+# **Basic OOP Principles**
+## **1. Class**
+- A **logical entity**.
+- Contains **data members (fields)** and **methods**.
+- Methods can be:
+    - **Static** → accessed using class name.    
+    - **Non-static** → accessed via object.
+- Also called **User-Defined Datatype**.
+- Blueprint for creating objects.
+---
 
-	1. Class:
-		a. Class is a logical entity 
-		b. consists of data members and methods 
-		c. methods can be static , non-static (Static can be accessed through class
-		 names while for non static classes needs to be accessed by creating
-		 objects )
-		d. also called as user defined datatype
-		
-	2. Object:
-		a. a physical entity 
-		b. just an instance of class
-		c. one class can have multiple objects
-		d. in java to create a object we need new operator
-	
+## **2. Object**
 
-#### Major pillars :
-	1. Abstraction
-		a. Getting to know only required information
-		b. DAO layer where we are only exposing required fields not whole table 
-		c. Abstract Classes and Interfaces (They define behaviour without actual implementation)
-	2. Encapsulation
-		a. Binding data and code together
-		b. class binds data members and member functions
-		c. Jmods or rtJar (Java internally stores its helper classes or libraries in jmod currently priorly in rt.jar)
-		d. creating a class
-	3. Modularity
-		a. Modularity is just keeping everything arranged and in seperate files 
-		b. jmods is good example where java has arranged everything in modules
-	4. Hierarchy
-		a. it justs represents code reusability and establishes relationship between 2 entities  
-		b. it is further subdivided in:
-			i.  Association (Having Has - A Relationship)
-				a. Creating object of dependency class inside the dependent class.
-				(Car Has a Engine {})
-			ii. Inheritence (Having Is - A Relationship)
-				a. Object of parent class created automatically inside the child
-				class
-#### Minor Pillars :
+- A **physical entity** in memory.
+    
+- An **instance of a class**.
+    
+- One class → multiple objects.
+    
+- Created using the **`new` operator** (except via reflection, cloning, deserialization).
+    
 
-	1. Typing / Polymorphism 
-		a. Polymorphism is having code in different forms 
-		b. is further divided in 2 types
-			i.  Runtime Polymorphism (Method overriding)
-				a. is decided at the time of runtime by JVM
-				b. the same function is overrided in child classes  and the child 
-				function is called when the object of child class is created 
-				irrespective of the reference created
-			ii. Compiletime Polymorphism (Method overloading)
-				a. is decided at the time of compilation
-				b. name mangling is concept on which it is working 
-				c. for overloading number of parameters, sequence of parameters,
-				 and data types of parameters can be changed and method 
-				 overloading works
-	2. Concurrency
-		a. Number of processes threads that can work concurrently
-		b. Java Supports multi threading
-	3. Persistence
-		a. keeping data persisted 
-		b. Java Supports persistence through Java I/O and jdbc also various topics 
-	
+---
 
+# **Major OOP Pillars**
 
+## **1. Abstraction**
 
+- Showing only the **necessary** details and hiding the internal implementation.
+    
+- Examples:
+    
+    - **DAO layer** (exposing only required fields, hiding database structure).
+        
+    - **Abstract Classes** & **Interfaces** → define behavior without implementation.
+        
+- Benefits: Simplicity, reduced complexity, security.
+    
 
+---
+
+## **2. Encapsulation**
+
+- **Binding data + methods** that operate on the data into a single unit (class).
+    
+- Fields are made **private**, accessed via **getters & setters**.
+    
+- Examples:
+    
+    - Java modules (**jmod** in Modern JDK) or earlier **rt.jar** (Java library packaging).
+        
+    - Creating a class with private fields.
+        
+
+---
+
+## **3. Modularity**
+
+- Organizing code into **separate, manageable modules/files**.
+    
+- Improves maintainability & readability.
+    
+- Java uses **Jigsaw (Java Modules)** → `.jmod` files.
+    
+
+---
+
+## **4. Hierarchy** (Relationship + Reusability)
+
+Hierarchy expresses **relationships** between objects & code reuse.
+
+### **i. Association** (Has-A Relationship)
+
+- One class uses another by creating its object.
+    
+- Example:
+    
+    `class Car {     Engine e = new Engine();   // Car HAS-A Engine }`
+    
+
+### **ii. Inheritance** (Is-A Relationship)
+
+- Child class inherits fields/methods of parent.
+    
+- Parent class object is not created physically inside child, but **child gets access to parent members**.
+    
+- Supports **code reuse** & **method overriding**.
+    
+
+---
+
+# **Minor OOP Pillars**
+
+## **1. Typing / Polymorphism**
+
+Polymorphism → **"many forms"** of the same method or reference.
+
+### **i. Runtime Polymorphism (Method Overriding)**
+
+- Decided at **runtime** by JVM.
+    
+- Same method name & signature in child and parent.
+    
+- Actual method called depends on **object**, not reference.
+    
+
+### **ii. Compile-time Polymorphism (Method Overloading)**
+
+- Decided at **compile time**.
+    
+- Works on **name mangling** (compiler-generated method signatures).
+    
+- Achieved by changing:
+    
+    - Number of parameters
+        
+    - Type of parameters
+        
+    - Order of parameters
+        
+
+---
+
+## **2. Concurrency**
+
+- Ability to execute **multiple threads** concurrently.
+    
+- Java provides:
+    
+    - `Thread` class
+        
+    - `Runnable` interface
+        
+    - Executors, thread pools
+        
+- Enables parallelism and better CPU utilization.
+    
+
+---
+
+## **3. Persistence**
+
+- Keeping data **stored/saved** beyond program execution.
+    
+- Supported via:
+    
+    - **Java I/O**
+        
+    - **Serialization**
+        
+    - **JDBC**
+        
+    - External frameworks (Hibernate, JPA)
