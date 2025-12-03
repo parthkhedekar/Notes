@@ -34,7 +34,9 @@
 			ii. Compiletime Polymorphism (Method overloading)
 				a. is decided at the time of compilation
 				b. name mangling is concept on which it is working 
-				c. for overloading number of parameters, sequence of parameters, 
+				c. for overloading number of parameters, sequence of parameters,
+				 and data types of parameters can be changed and method 
+				 overloading works
 	2. Concurrency
 	3. Persistence
 	
