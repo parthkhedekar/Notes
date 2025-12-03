@@ -1,233 +1,27 @@
 # Object Oriented Programming Principles:
 
-# **Major Pillars of OOP in Java**
-
-## **1. Abstraction**
-
-Abstraction means **showing only the required information and hiding unnecessary details**.
-
-### Key Points:
-
-- **Focus on what, not how.**
-- **DAO Layer** → Exposes only required fields instead of the whole table.
-    
-- **Abstract Classes & Interfaces** → Define behavior without providing complete implementation.
-    
-
-### Examples:
-
-- Using a method `startEngine()` without knowing how the engine starts internally.
-    
-- Hiding complex logic behind APIs.
-    
-
----
-
-## **2. Encapsulation**
-
-Encapsulation means **binding data and the methods that operate on that data within a class**, and **restricting direct access** using access modifiers.
-
-### Key Points:
-
-- A class binds **data members + member functions**.
-    
-- `private` fields + `public` getters/setters protect data.
-    
-- Java internally encapsulates libraries in **JMODS** (currently) and **rt.jar** (before Java 9).
-    
-- Every time you **create a class**, you're encapsulating data and logic inside a single unit.
-    
-
-### Example:
-
-`class Student {     private String name;     public String getName() { return name; } }`
-
----
-
-## **3. Modularity**
-
-Modularity means **organizing code into separate, logical units**, making it easier to manage, understand, and maintain.
-
-### Key Points:
-
-- Keep everything arranged in **separate files / components / packages**.
-    
-- Java modules (Jigsaw Project) introduced **JMOD files** → a real-world example of good modular design.
-    
-- Helps in:
-    
-    - Reusability
-        
-    - Maintainability
-        
-    - Scaling the code
-        
-
-### Example:
-
-- Separate packages for `controllers`, `services`, `repository`.
-    
-
----
-
-## **4. Hierarchy**
-
-Hierarchy establishes **relationships between classes / objects** and supports **code reusability**.
-
-### Two main types:
-
----
-
-### **i. Association (Has-A Relationship)**
-
-→ A class contains another class as a dependency.  
-→ Achieved by **creating an object of one class inside another**.
-
-**Example:**
-
-`class Car {     Engine engine = new Engine(); // Car HAS-A Engine }`
-
----
-
-### **ii. Inheritance (Is-A Relationship)**
-
-→ A child class inherits properties and behaviors of a parent class.  
-→ JVM automatically includes the parent object inside the child.
-
-**Example:**
-
-`class Animal {} class Dog extends Animal {} // Dog IS-A Animal`
-
----
-
-If you want, I can convert this entire thing into a **perfect markdown file** ready for your notes.
-
-##### You said:
-
-yes
-
-###### ChatGPT said:
-
-Here is the **clean, crisp, interview-ready Markdown file** exactly the way you’d want it in your notes.
-
----
-
-# **Major Pillars of OOP in Java**
-
-## **1. Abstraction**
-
-Abstraction means **showing only the necessary information and hiding unnecessary internal details**.
-
-### ✅ Key Points
-
-- Focuses on **what the object does**, not how it does it.
-    
-- **DAO Layer** → Exposes only required fields instead of the entire table.
-    
-- **Abstract Classes & Interfaces** define behavior without providing full implementation.
-    
-
-### ✅ Example
-
-`interface Vehicle {     void start(); // What to do, not how }`
-
----
-
-## **2. Encapsulation**
-
-Encapsulation means **binding data (variables) and methods (functions) into a single unit (class)** and controlling access to them.
-
-### ✅ Key Points
-
-- Class binds **data members + member functions**.
-    
-- Achieved using:
-    
-    - `private` fields
-        
-    - `public` getters/setters
-        
-- Protects the internal state of an object.
-    
-- Java internally encapsulates libraries using:
-    
-    - **JMOD files** (Java 9+)
-        
-    - **rt.jar** (prior to Java 9)
-        
-- Every time you **create a class**, you're implementing encapsulation.
-    
-
-### ✅ Example
-
-`class Student {     private String name; // hidden data      public String getName() {          return name;      } }`
-
----
-
-## **3. Modularity**
-
-Modularity means **organizing code into separate, independent modules/files**, making the system scalable and maintainable.
-
-### ✅ Key Points
-
-- Keeps code clean, structured, and easy to manage.
-    
-- Achieved by:
-    
-    - Packages
-        
-    - Class separation
-        
-    - Layered architecture (Controller-Service-DAO)
-        
-- Java uses **JMODS** as a real-world example of modular structure.
-    
-
-### ✅ Example (Package Structure)
-
-`com.project.controller com.project.service com.project.repository com.project.model`
-
----
-
-## **4. Hierarchy**
-
-Hierarchy defines **relationships between different classes** and supports **code reusability**.
-
----
-
-### **i. Association (HAS–A Relationship)**
-
-A class contains or uses another class.
-
-### ✅ Key Points
-
-- Achieved by creating an object of one class inside another.
-    
-- Represents dependency between two entities.
-    
-
-### ✅ Example
-
-`class Car {     Engine engine = new Engine(); // Car HAS-A Engine }`
-
----
-
-### **ii. Inheritance (IS–A Relationship)**
-
-A child class acquires the properties and behaviors of a parent class.
-
-### ✅ Key Points
-
-- Establishes hierarchy.
-    
-- Promotes code reusability.
-    
-- JVM automatically includes the parent behavior inside the child.
-    
-
-### ✅ Example
-
-`class Animal {} class Dog extends Animal {} // Dog IS-A Animal`
+#### Major pillars :
+	1. Abstraction
+		a. Getting to know only required information
+		b. DAO layer where we are only exposing required fields not whole table 
+		c. Abstract Classes and Interfaces (They define behaviour without actual implementation)
+	2. Encapsulation
+		a. Binding data and code together
+		b. class binds data members and member functions
+		c. Jmods or rtJar (Java internally stores its helper classes or libraries in jmod currently priorly in rt.jar)
+		d. creating a class
+	3. Modularity
+		a. Modularity is just keeping everything arranged and in seperate files 
+		b. jmods is good example where java has arranged everything in modules
+	4. Hierarchy
+		a. it justs represents code reusability and establishes relationship between 2 entities  
+		b. it is further subdivided in:
+			i.  Association (Having Has - A Relationship)
+				a. Creating object of dependency class inside the dependent class.
+				(Car Has a Engine {})
+			ii. Inheritence (Having Is - A Relationship)
+				a. Object of parent class created automatically inside the child
+				class
 #### Minor Pillars :
 	1. Typing / Polymorphism 
 	2. Concurrency
