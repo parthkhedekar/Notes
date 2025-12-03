@@ -18,5 +18,7 @@ OOPs has 2 basic principles :-
 		d. also called as user defined datatype
 		
 	2. Object:
-		a. 
+		a. a physical entity 
+		b. just an instance of class
+		c. 
 
