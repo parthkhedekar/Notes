@@ -4,8 +4,10 @@
 	1. Abstraction
 		a. Getting to know only required information
 		b. DAO layer where we are only exposing required fields not whole table 
-		c. Abstract Classes and Interfaces
+		c. Abstract Classes and Interfaces (They define behaviour without actual implementation)
 	2. Encapsulation
+		a. Binding data and code together
+		
 	3. Modularity
 	4. Hierarchy
 #### Minor Pillars :
