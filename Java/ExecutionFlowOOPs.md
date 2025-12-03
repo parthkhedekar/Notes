@@ -14,8 +14,9 @@ OOPs has 2 basic principles :-
 		b. consists of data members and methods 
 		c. methods can be static , non-static (Static can be accessed through class
 		 names while for non static classes needs to be accessed by creating
-		  objects )
+		 objects )
 		d. also called as user defined datatype
 		
 	2. Object:
+		a. 
 
