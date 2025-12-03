@@ -1,5 +1,7 @@
 # Object Oriented Programming Principles:
 
+Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive datatypes but for this we have wrapper classes 
+
 **OOPs has 2 basic principles** :- 
 
 	1. Class:
@@ -60,9 +62,9 @@
 		b. Java Supports multi threading
 	3. Persistence
 		a. keeping data persisted 
-		b. Java Supports persistence through 
+		b. Java Supports persistence through Java I/O and jdbc also various topics 
 	
-Java is an object oriented language with everything is stored or used as class or object just here the exception is primitive datatypes but for this we have wrapper classes 
+
 
 
 
