@@ -25,4 +25,5 @@
 		7. char;
 				stores just character;
 		8. boolean:
-			1. 
+				stores true\false.
+		
