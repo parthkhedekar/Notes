@@ -13,3 +13,11 @@ There are 2 types object oriented language and procedural languages.
 	Object is instance of class. you can create object using new keyword for a reference. also in cpp we can delete the memory for a object but in java when the object is un referenced it is deleted automatically by GC(Garbage Collector)
 	Reference is stored in stack memory as its runtime while the object is stored in heap.
 
+## Stack and Heap Memory Allocation
+
+Different languages manage stack and heap memory differently. In Java:
+
+- Primitive variables and object references are stored in the stack.
+- All objects created using **new** are stored in the heap.
+- Stack memory is cleared automatically when methods finish execution.
+- Heap memory is managed automatically by the Garbage Collector.
