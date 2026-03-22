@@ -7,3 +7,6 @@
 		1. byte:
 				8 bits of memory
 				-128 to 127 is the range
+		2. short:
+				16 bits 
+				-32768 to 32
