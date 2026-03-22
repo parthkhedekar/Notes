@@ -16,4 +16,9 @@
 		4. long:
 				64 bits
 				-2^63 to 2^63 - 1
-		5. 
+		5. float:
+				32 bits
+				6 decimal digits
+		6. double:
+				64 bits
+				
