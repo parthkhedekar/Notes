@@ -10,4 +10,4 @@ There are 2 types object oriented language and procedural languages.
 #### What is class ?
 	class is template. it consists of fields and methods.
 #### What is Object ?
-	Object is instance of class. you can create object using new keyword for a reference. also in cpp we can delete the memory for a object but in java when the object is un referenced it is deleted automatically by GC()
+	Object is instance of class. you can create object using new keyword for a reference. also in cpp we can delete the memory for a object but in java when the object is un referenced it is deleted automatically by GC(Garbage Collector)
