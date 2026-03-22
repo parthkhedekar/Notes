@@ -21,4 +21,8 @@
 				6 decimal digits
 		6. double:
 				64 bits
-				
+				11 decomal digits
+		7. char;
+				stores just character;
+		8. boolean:
+			1. 
