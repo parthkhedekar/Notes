@@ -26,4 +26,3 @@
 				stores just character;
 		8. boolean:
 				stores true\false.
-#### 
