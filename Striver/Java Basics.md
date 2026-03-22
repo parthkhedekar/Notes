@@ -5,4 +5,5 @@
 
 ### Data Types : 
 		1. byte:
-				
+				8 bits of memory
+				-128 to 127 is the range
