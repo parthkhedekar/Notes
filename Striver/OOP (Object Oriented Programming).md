@@ -7,4 +7,5 @@
 There are 2 types object oriented language and procedural languages.
 	procedural is c , pascal
 	object oriented is cpp , java
-	
+#### What is class ?
+	class is template. it consists of fields also 
