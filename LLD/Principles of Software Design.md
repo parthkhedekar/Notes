@@ -22,3 +22,10 @@ We can avoid design patterns keeping time constraints or any other constraints b
     - Legacy code might not have tests or complete documentation. Introducing DRY by extracting shared logic can accidentally change behavior.
     - Refactoring legacy code safely often follows the "leave it alone unless you must touch it" rule.
 #### KISS (Keep It Simple, Stupid)
+	This principle states that simplicity should be a key goal in design and unnecessary complexity should be avoided. In simple terms, use the simplest possible solution that works. Avoid clever, convoluted code.
+
+#### Importance
+- Easier debugging
+- Improved readability
+- Better maintainability
+- Faster development
