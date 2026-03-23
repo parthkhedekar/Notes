@@ -32,4 +32,4 @@ We can avoid design patterns keeping time constraints or any other constraints b
 #### When Not to Use the KISS Principle:
 	Your code should always be simple so theres nothing where you will not use it
 
-###  
+### 3. YAGNI (You Aren't Gonna Need It)
