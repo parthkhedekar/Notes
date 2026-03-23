@@ -2,3 +2,8 @@ We can avoid design patterns keeping time constraints or any other constraints b
 
 #### 1. DRY(Don't Repeat Yourself) : 
 Every piece of knowledge specifically business knowledge should be kept at one place and it should not repeat itself  
+#### Importance:
+
+- Reduces redundancy
+- Easier maintenance
+- Single point of change
