@@ -1,1 +1,1 @@
-We can avoid design patterns 
+We can avoid design patterns keeping time constraints or any 
