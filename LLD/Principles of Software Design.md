@@ -1,0 +1,1 @@
+We can avoid design patterns 
