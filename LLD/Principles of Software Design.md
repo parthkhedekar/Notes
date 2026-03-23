@@ -21,3 +21,4 @@ We can avoid design patterns keeping time constraints or any other constraints b
 - **Legacy Codebases:** Don't refactor for DRY's sake in legacy code unless necessary and well-tested.
     - Legacy code might not have tests or complete documentation. Introducing DRY by extracting shared logic can accidentally change behavior.
     - Refactoring legacy code safely often follows the "leave it alone unless you must touch it" rule.
+#### KISS (Keep It Simple, Stupid)
