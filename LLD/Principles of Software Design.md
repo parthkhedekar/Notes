@@ -29,3 +29,5 @@ We can avoid design patterns keeping time constraints or any other constraints b
 - Improved readability
 - Better maintainability
 - Faster development
+#### When Not to Use the KISS Principle:
+	Your code should always be simple so theres notjin
