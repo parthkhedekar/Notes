@@ -1,6 +1,6 @@
 We can avoid design patterns keeping time constraints or any other constraints but there are 3 design patterns which cannot be avoided also design patterns were introduced for antipatterns 
 
-#### 1.  DRY(Don't Repeat Yourself) : 
+### 1.  DRY(Don't Repeat Yourself) : 
 	Every piece of knowledge specifically business knowledge should be kept at one place and it should not repeat itself  
 	This principle states that every piece of knowledge must have a single, unambiguous, authoritative representation within a system. In simple terms, avoid duplication of logic or code. Repeating code makes the system hard to maintain and error-prone. If a change is required, you might forget to update all occurrences
 #### Importance:
@@ -21,7 +21,7 @@ We can avoid design patterns keeping time constraints or any other constraints b
 - **Legacy Codebases:** Don't refactor for DRY's sake in legacy code unless necessary and well-tested.
     - Legacy code might not have tests or complete documentation. Introducing DRY by extracting shared logic can accidentally change behavior.
     - Refactoring legacy code safely often follows the "leave it alone unless you must touch it" rule.
-#### KISS (Keep It Simple, Stupid)
+### 2.KISS (Keep It Simple, Stupid)
 	This principle states that simplicity should be a key goal in design and unnecessary complexity should be avoided. In simple terms, use the simplest possible solution that works. Avoid clever, convoluted code.
 
 #### Importance
@@ -30,4 +30,6 @@ We can avoid design patterns keeping time constraints or any other constraints b
 - Better maintainability
 - Faster development
 #### When Not to Use the KISS Principle:
-	Your code should always be simple so theres notjin
+	Your code should always be simple so theres nothing where you will not use it
+
+###  
