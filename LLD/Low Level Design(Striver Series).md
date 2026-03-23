@@ -2,3 +2,5 @@
 2. HLD -> something like architect design how will overall house will look like
 
 #### LLD
+Bridge between the architecture and the actual implementation of code 
+#
