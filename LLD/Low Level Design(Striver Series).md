@@ -1,3 +1,1 @@
-
-	
-	
+1. LLD -> by example we can say that analogically something like while designing 
