@@ -25,3 +25,6 @@ There are a few common mistakes that developers make when violating the Single R
 - **Coupling UI Code with Business Logic:** Embedding application logic directly in the UI layer. This makes it tedious to change the UI without affecting the underlying logic.
 
 ### 2. Open Close Principle (OCP)
+	As per OCP, Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.  
+	This means that the behavior of a module can be extended without modifying its source code. The goal is to reduce the risk of breaking existing functionality when requirements change.
+	example : 
