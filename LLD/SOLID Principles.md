@@ -23,3 +23,5 @@ There are a few common mistakes that developers make when violating the Single R
 
 - **Mixing Database Logic with Business Logic:** Putting both data access (e.g., SQL, JDBC) and core business rules in the same class. This makes it hard to change the database layer without affecting business logic.
 - **Coupling UI Code with Business Logic:** Embedding application logic directly in the UI layer. This makes it tedious to change the UI without affecting the underlying logic.
+
+### 2. Open Close Principle (OCP)
