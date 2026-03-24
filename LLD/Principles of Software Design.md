@@ -36,13 +36,11 @@ We can avoid design patterns keeping time constraints or any other constraints b
 	This principle states that **"Always implement things when you actually need them, never when you just foresee that you need them."**. In simple terms, don't add functionality until it's necessary. Avoid building features that you think you might need in the future. This principle helps to keep the codebase clean and reduces unnecessary complexity.
 
 #### Importance:
-
 - Reduced waste
 - Simplified codebase
 - Faster development
 
 #### When NOT to use YAGNI:
-
 - **When the requirements are well-known:** If a feature is guaranteed and soon to be implemented, preparing for it now might be more efficient. For example:
     - You're writing a messaging service that currently supports only text, but your product team has committed to image support in 2 sprints.
     - Designing your data model to handle attachments now might save significant refactoring later.
